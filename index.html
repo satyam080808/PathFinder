@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pathfinding Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="controls">
+    <h1>✨ Pathfinding Visualizer ✨</h1>
+    <div class="buttons">
+      <button onclick="setMode('start')">Set Start</button>
+      <button onclick="setMode('end')">Set End</button>
+      <button onclick="setMode('barrier')">Manual Barriers</button>
+      <button onclick="generateAutoBarriers()">Auto Barriers</button>
+      <button onclick="resetGrid()">Reset Grid</button>
+    </div>
+    <div class="selectors">
+      <select id="algorithm-selector">
+        <option value="dijkstra">Dijkstra's Algorithm</option>
+        <option value="bfs">Breadth-First Search</option>
+        <option value="dfs">Depth-First Search</option>
+        <option value="astar">A* Algorithm</option>
+      </select>
+      <button onclick="runSelectedAlgorithm()">Run Algorithm</button>
+    </div>
+  </div>
+
+  <div id="visualization">
+    <h2>Algorithm Performance Comparison</h2>
+    <canvas id="comparisonChart" width="400" height="200"></canvas>
+  </div>
+
+  <div id="grid"></div>
+  <div id="metrics"></div>
+  <script src="main.js"></script>
+</body>
+</html>
