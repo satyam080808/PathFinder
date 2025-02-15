@@ -1,6 +1,6 @@
 # PathFinder 🚀
 
-**PathFinder.js** is a web-based shortest path visualizer built using **HTML**, **CSS**, and **JavaScript**. It provides a better and more interactive alternative to traditional Python-based visualizers (like Pygame) by leveraging the power of web technologies. Visualize popular algorithms like **Dijkstra's**, **BFS**, **DFS**, and **A*** in action, and explore features like maze generation, barrier placement, and auto barrier generation.
+**PathFinder** is a web-based shortest path visualizer built using **HTML**, **CSS**, and **JavaScript**. It provides a better and more interactive alternative to traditional Python-based visualizers (like Pygame) by leveraging the power of web technologies. Visualize popular algorithms like **Dijkstra's**, **BFS**, **DFS**, and **A*** in action, and explore features like maze generation, barrier placement, and auto barrier generation.
 
 ---
 
